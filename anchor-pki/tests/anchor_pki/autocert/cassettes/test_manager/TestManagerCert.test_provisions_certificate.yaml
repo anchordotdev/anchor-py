@@ -1,0 +1,782 @@
+interactions:
+- request:
+    body: null
+    headers:
+      Accept:
+      - '*/*'
+      Accept-Encoding:
+      - gzip, deflate
+      Connection:
+      - keep-alive
+      User-Agent:
+      - anchor-pki autocert python client v0.1.0
+    method: GET
+    uri: https://anchor.dev/autocert-cab3bc/development/x509/ca/acme
+  response:
+    body:
+      string: '{"newNonce":"https://anchor.dev/autocert-cab3bc/development/x509/ca/acme/new-nonce","newAccount":"https://anchor.dev/autocert-cab3bc/development/x509/ca/acme/new-account","newOrder":"https://anchor.dev/autocert-cab3bc/development/x509/ca/acme/new-order","revokeCert":"https://anchor.dev/autocert-cab3bc/development/x509/ca/acme/revoke-cert","meta":{"website":"https://anchor.dev","externalAccountRequired":true}}'
+    headers:
+      Connection:
+      - keep-alive
+      cache-control:
+      - max-age=0, private, must-revalidate
+      content-length:
+      - '412'
+      content-security-policy:
+      - 'default-src ''self'' https:; font-src ''self'' https: data:; img-src ''self''
+        https: data:; object-src ''none''; script-src ''self'' bam.nr-data.net js-agent.newrelic.com;
+        style-src ''self'' ''unsafe-inline'' bam.nr-data.net; connect-src ''self'';
+        base-uri ''self'''
+      content-type:
+      - application/json; charset=utf-8
+      date:
+      - Thu, 12 Oct 2023 16:13:59 GMT
+      etag:
+      - W/"22f24c4757511b8a5c30da37aa7f09ba"
+      fly-request-id:
+      - 01HCJAN41ZW8MR2YX47MYTP5SD-sjc
+      referrer-policy:
+      - strict-origin-when-cross-origin
+      server:
+      - Fly/55f8eaa0 (2023-10-09)
+      strict-transport-security:
+      - max-age=63072000; includeSubDomains
+      transfer-encoding:
+      - chunked
+      vary:
+      - Accept
+      via:
+      - 1.1 fly.io
+      x-cache:
+      - MISS
+      x-cache-hits:
+      - '0'
+      x-content-type-options:
+      - nosniff
+      x-download-options:
+      - noopen
+      x-frame-options:
+      - SAMEORIGIN
+      x-permitted-cross-domain-policies:
+      - none
+      x-request-id:
+      - 46697a18-0534-4596-a21c-4af888f55254
+      x-runtime:
+      - '0.004607'
+      x-served-by:
+      - cache-pao-kpao1770037-PAO
+      x-xss-protection:
+      - '0'
+    status:
+      code: 200
+      message: OK
+- request:
+    body: null
+    headers:
+      Accept:
+      - '*/*'
+      Accept-Encoding:
+      - gzip, deflate
+      Connection:
+      - keep-alive
+      User-Agent:
+      - anchor-pki autocert python client v0.1.0
+    method: HEAD
+    uri: https://anchor.dev/autocert-cab3bc/development/x509/ca/acme/new-nonce
+  response:
+    body:
+      string: ''
+    headers:
+      Connection:
+      - keep-alive
+      cache-control:
+      - no-cache
+      content-security-policy:
+      - 'default-src ''self'' https:; font-src ''self'' https: data:; img-src ''self''
+        https: data:; object-src ''none''; script-src ''self'' bam.nr-data.net js-agent.newrelic.com;
+        style-src ''self'' ''unsafe-inline'' bam.nr-data.net; connect-src ''self'';
+        base-uri ''self'''
+      content-type:
+      - text/html
+      date:
+      - Thu, 12 Oct 2023 16:13:59 GMT
+      fly-request-id:
+      - 01HCJAN4873CMSX1T6ZXHG37QE-sjc
+      location:
+      - <https://anchor.dev/autocert-cab3bc/development/x509/ca/acme>;rel="index"
+      referrer-policy:
+      - strict-origin-when-cross-origin
+      replay-nonce:
+      - e5K2BuPCwaHd9LX1v7QJNsGIloUq4SGc
+      server:
+      - Fly/55f8eaa0 (2023-10-09)
+      strict-transport-security:
+      - max-age=63072000; includeSubDomains
+      via:
+      - 1.1 fly.io
+      x-cache:
+      - MISS
+      x-cache-hits:
+      - '0'
+      x-content-type-options:
+      - nosniff
+      x-download-options:
+      - noopen
+      x-frame-options:
+      - SAMEORIGIN
+      x-permitted-cross-domain-policies:
+      - none
+      x-request-id:
+      - 89e641e3-9637-409e-8473-c22d15abb4a3
+      x-runtime:
+      - '0.017426'
+      x-served-by:
+      - cache-pao-kpao1770037-PAO
+      x-xss-protection:
+      - '0'
+    status:
+      code: 200
+      message: OK
+- request:
+    body: "{\n  \"protected\": \"eyJhbGciOiAiRVMyNTYiLCAiandrIjogeyJ4IjogIkFQc1pRLWhVZTdjVkd3UG9FbHdBU0hYT245NXAtSDh4TUh2dHVrdkdiTEUiLCAieSI6ICItOW8wNjB0a3kwRVRLMDVlZE1IUWZPRk9wcWt4Y1ROQ0Y5R1U4LXRfZlVvIiwgImNydiI6ICJQLTI1NiIsICJrdHkiOiAiRUMifSwgIm5vbmNlIjogImU1SzJCdVBDd2FIZDlMWDF2N1FKTnNHSWxvVXE0U0djIiwgInVybCI6ICJodHRwczovL2FuY2hvci5kZXYvYXV0b2NlcnQtY2FiM2JjL2RldmVsb3BtZW50L3g1MDkvY2EvYWNtZS9uZXctYWNjb3VudCJ9\",\n
+      \ \"signature\": \"Oag17SFCGriq8DBL5vi_JeVihn2duYa6Qq5RMM43sZG4yR9fEmiDfHXFbASjHhE9rboTQmromTNAeSZGQPOSLw\",\n
+      \ \"payload\": \"ewogICJjb250YWN0IjogWwogICAgIm1haWx0bzpkZXZlbG9wZXJAYW5jaG9yLmRldiIKICBdLAogICJ0ZXJtc09mU2VydmljZUFncmVlZCI6IHRydWUsCiAgImV4dGVybmFsQWNjb3VudEJpbmRpbmciOiB7CiAgICAicHJvdGVjdGVkIjogImV5SmhiR2NpT2lBaVNGTXlOVFlpTENBaWEybGtJam9nSW1GaFpWOWFWemhEY2pSSGNqVkhNRXRRUTBRMmExQlROVVJXYzJSMFNrMVdkRFppZG5WaVUwdHVWMFF4WjNSM2NTSXNJQ0oxY213aU9pQWlhSFIwY0hNNkx5OWhibU5vYjNJdVpHVjJMMkYxZEc5alpYSjBMV05oWWpOaVl5OWtaWFpsYkc5d2JXVnVkQzk0TlRBNUwyTmhMMkZqYldVdmJtVjNMV0ZqWTI5MWJuUWlmUSIsCiAgICAic2lnbmF0dXJlIjogInA0VWZxemg5Q3R5R1pLOWJyZmd2Q1VPWDJzbkh5LUZFeUFuV0dYZ0Z3LWciLAogICAgInBheWxvYWQiOiAiZXlKNElqb2dJa0ZRYzFwUkxXaFZaVGRqVmtkM1VHOUZiSGRCVTBoWVQyNDVOWEF0U0RoNFRVaDJkSFZyZGtkaVRFVWlMQ0FpZVNJNklDSXRPVzh3TmpCMGEza3dSVlJMTURWbFpFMUlVV1pQUms5d2NXdDRZMVJPUTBZNVIxVTRMWFJmWmxWdklpd2dJbU55ZGlJNklDSlFMVEkxTmlJc0lDSnJkSGtpT2lBaVJVTWlmUSIKICB9Cn0\"\n}"
+    headers:
+      Accept:
+      - '*/*'
+      Accept-Encoding:
+      - gzip, deflate
+      Connection:
+      - keep-alive
+      Content-Length:
+      - '1342'
+      Content-Type:
+      - application/jose+json
+      User-Agent:
+      - anchor-pki autocert python client v0.1.0
+    method: POST
+    uri: https://anchor.dev/autocert-cab3bc/development/x509/ca/acme/new-account
+  response:
+    body:
+      string: '{"status":"valid","contact":["mailto:developer@anchor.dev"],"orders":"https://anchor.dev/autocert-cab3bc/development/x509/ca/acme/acct/96E6:A2C2:83C4/orders"}'
+    headers:
+      Connection:
+      - keep-alive
+      cache-control:
+      - max-age=0, private, must-revalidate
+      content-length:
+      - '158'
+      content-security-policy:
+      - 'default-src ''self'' https:; font-src ''self'' https: data:; img-src ''self''
+        https: data:; object-src ''none''; script-src ''self'' bam.nr-data.net js-agent.newrelic.com;
+        style-src ''self'' ''unsafe-inline'' bam.nr-data.net; connect-src ''self'';
+        base-uri ''self'''
+      content-type:
+      - application/json; charset=utf-8
+      date:
+      - Thu, 12 Oct 2023 16:14:00 GMT
+      etag:
+      - W/"b51cdc053ccdc0bd8904c34917646618"
+      fly-request-id:
+      - 01HCJAN4ES02GC3HQK4RP1EN6P-sjc
+      location:
+      - https://anchor.dev/autocert-cab3bc/development/x509/ca/acme/acct/96E6:A2C2:83C4
+      referrer-policy:
+      - strict-origin-when-cross-origin
+      replay-nonce:
+      - kMhTrQZ4q1NRsvMBqQJk2gnuvCy2sNhI
+      server:
+      - Fly/55f8eaa0 (2023-10-09)
+      strict-transport-security:
+      - max-age=63072000; includeSubDomains
+      transfer-encoding:
+      - chunked
+      vary:
+      - Accept
+      via:
+      - 1.1 fly.io
+      x-cache:
+      - MISS
+      x-cache-hits:
+      - '0'
+      x-content-type-options:
+      - nosniff
+      x-download-options:
+      - noopen
+      x-frame-options:
+      - SAMEORIGIN
+      x-permitted-cross-domain-policies:
+      - none
+      x-request-id:
+      - 32d718f2-76f3-44c7-a814-c01de8b729f9
+      x-runtime:
+      - '0.321486'
+      x-served-by:
+      - cache-pao-kpao1770037-PAO
+      x-xss-protection:
+      - '0'
+    status:
+      code: 201
+      message: Created
+- request:
+    body: "{\n  \"protected\": \"eyJhbGciOiAiRVMyNTYiLCAia2lkIjogImh0dHBzOi8vYW5jaG9yLmRldi9hdXRvY2VydC1jYWIzYmMvZGV2ZWxvcG1lbnQveDUwOS9jYS9hY21lL2FjY3QvOTZFNjpBMkMyOjgzQzQiLCAibm9uY2UiOiAia01oVHJRWjRxMU5Sc3ZNQnFRSmsyZ251dkN5MnNOaEkiLCAidXJsIjogImh0dHBzOi8vYW5jaG9yLmRldi9hdXRvY2VydC1jYWIzYmMvZGV2ZWxvcG1lbnQveDUwOS9jYS9hY21lL25ldy1vcmRlciJ9\",\n
+      \ \"signature\": \"d9wrUk1Hz1t8rMo7RVJc48HUpFuOjyl3dK_zuWw8SFblfnlX6vISdFFyGjzZ3mCeX6O6XQEgPUyvMY55sH5eEw\",\n
+      \ \"payload\": \"ewogICJpZGVudGlmaWVycyI6IFsKICAgIHsKICAgICAgInR5cGUiOiAiZG5zIiwKICAgICAgInZhbHVlIjogImFuY2hvci1wa2ktcHktdGVzdGluZy5sY2wuaG9zdCIKICAgIH0KICBdCn0\"\n}"
+    headers:
+      Accept:
+      - '*/*'
+      Accept-Encoding:
+      - gzip, deflate
+      Connection:
+      - keep-alive
+      Content-Length:
+      - '594'
+      Content-Type:
+      - application/jose+json
+      User-Agent:
+      - anchor-pki autocert python client v0.1.0
+    method: POST
+    uri: https://anchor.dev/autocert-cab3bc/development/x509/ca/acme/new-order
+  response:
+    body:
+      string: '{"status":"ready","expires":"2023-10-12T17:14:00.835Z","identifiers":[{"type":"dns","value":"anchor-pki-py-testing.lcl.host"}],"notBefore":null,"notAfter":null,"authorizations":["https://anchor.dev/autocert-cab3bc/development/x509/ca/acme/authz/2476:75DA:EA80"],"finalize":"https://anchor.dev/autocert-cab3bc/development/x509/ca/acme/order/D20C:2244:3F45/finalize"}'
+    headers:
+      Connection:
+      - keep-alive
+      cache-control:
+      - max-age=0, private, must-revalidate
+      content-length:
+      - '365'
+      content-security-policy:
+      - 'default-src ''self'' https:; font-src ''self'' https: data:; img-src ''self''
+        https: data:; object-src ''none''; script-src ''self'' bam.nr-data.net js-agent.newrelic.com;
+        style-src ''self'' ''unsafe-inline'' bam.nr-data.net; connect-src ''self'';
+        base-uri ''self'''
+      content-type:
+      - application/json; charset=utf-8
+      date:
+      - Thu, 12 Oct 2023 16:14:00 GMT
+      etag:
+      - W/"0369813ffe6d8d72b3a3fed31a7322c8"
+      fly-request-id:
+      - 01HCJAN51KGRPSPYDT1919AX6Z-sjc
+      location:
+      - https://anchor.dev/autocert-cab3bc/development/x509/ca/acme/order/D20C:2244:3F45
+      referrer-policy:
+      - strict-origin-when-cross-origin
+      replay-nonce:
+      - bpONBX9y4cNAKEm19p4kr2Xyv2QmE_JD
+      server:
+      - Fly/55f8eaa0 (2023-10-09)
+      strict-transport-security:
+      - max-age=63072000; includeSubDomains
+      transfer-encoding:
+      - chunked
+      vary:
+      - Accept
+      via:
+      - 1.1 fly.io
+      x-cache:
+      - MISS
+      x-cache-hits:
+      - '0'
+      x-content-type-options:
+      - nosniff
+      x-download-options:
+      - noopen
+      x-frame-options:
+      - SAMEORIGIN
+      x-permitted-cross-domain-policies:
+      - none
+      x-request-id:
+      - a7d3b145-ebbc-4d43-8b79-1204c32aa197
+      x-runtime:
+      - '0.203433'
+      x-served-by:
+      - cache-pao-kpao1770037-PAO
+      x-xss-protection:
+      - '0'
+    status:
+      code: 201
+      message: Created
+- request:
+    body: "{\n  \"protected\": \"eyJhbGciOiAiRVMyNTYiLCAia2lkIjogImh0dHBzOi8vYW5jaG9yLmRldi9hdXRvY2VydC1jYWIzYmMvZGV2ZWxvcG1lbnQveDUwOS9jYS9hY21lL2FjY3QvOTZFNjpBMkMyOjgzQzQiLCAibm9uY2UiOiAiYnBPTkJYOXk0Y05BS0VtMTlwNGtyMlh5djJRbUVfSkQiLCAidXJsIjogImh0dHBzOi8vYW5jaG9yLmRldi9hdXRvY2VydC1jYWIzYmMvZGV2ZWxvcG1lbnQveDUwOS9jYS9hY21lL2F1dGh6LzI0NzY6NzVEQTpFQTgwIn0\",\n
+      \ \"signature\": \"YMVDoCm7VtiIzKUMf2J6WbOv2gGPhqplxatxuY0FzhZFV8CYYssBjSMdTKW1UTDgMPJI1hXeDNux8BbZzFhHpA\",\n
+      \ \"payload\": \"\"\n}"
+    headers:
+      Accept:
+      - '*/*'
+      Accept-Encoding:
+      - gzip, deflate
+      Connection:
+      - keep-alive
+      Content-Length:
+      - '466'
+      Content-Type:
+      - application/jose+json
+      User-Agent:
+      - anchor-pki autocert python client v0.1.0
+    method: POST
+    uri: https://anchor.dev/autocert-cab3bc/development/x509/ca/acme/authz/2476:75DA:EA80
+  response:
+    body:
+      string: '{"status":"valid","expires":"2023-10-12T17:14:00.835Z","identifier":{"type":"dns","value":"anchor-pki-py-testing.lcl.host"},"challenges":[],"wildcard":false}'
+    headers:
+      Connection:
+      - keep-alive
+      cache-control:
+      - max-age=0, private, must-revalidate
+      content-length:
+      - '157'
+      content-security-policy:
+      - 'default-src ''self'' https:; font-src ''self'' https: data:; img-src ''self''
+        https: data:; object-src ''none''; script-src ''self'' bam.nr-data.net js-agent.newrelic.com;
+        style-src ''self'' ''unsafe-inline'' bam.nr-data.net; connect-src ''self'';
+        base-uri ''self'''
+      content-type:
+      - application/json; charset=utf-8
+      date:
+      - Thu, 12 Oct 2023 16:14:00 GMT
+      etag:
+      - W/"9a953fdb86d388a6a52278ed47ef1f5d"
+      fly-request-id:
+      - 01HCJAN5BJ78E1PFZTAVNPDB0B-sjc
+      location:
+      - <https://anchor.dev/autocert-cab3bc/development/x509/ca/acme>;rel="index"
+      referrer-policy:
+      - strict-origin-when-cross-origin
+      replay-nonce:
+      - VlWjUpUj-HWKXzhs_Eqex7nL87OaSQc7
+      server:
+      - Fly/55f8eaa0 (2023-10-09)
+      strict-transport-security:
+      - max-age=63072000; includeSubDomains
+      transfer-encoding:
+      - chunked
+      vary:
+      - Accept
+      via:
+      - 1.1 fly.io
+      x-cache:
+      - MISS
+      x-cache-hits:
+      - '0'
+      x-content-type-options:
+      - nosniff
+      x-download-options:
+      - noopen
+      x-frame-options:
+      - SAMEORIGIN
+      x-permitted-cross-domain-policies:
+      - none
+      x-request-id:
+      - bbc14f56-b01e-4566-933c-9db7aef14569
+      x-runtime:
+      - '0.140794'
+      x-served-by:
+      - cache-pao-kpao1770037-PAO
+      x-xss-protection:
+      - '0'
+    status:
+      code: 200
+      message: OK
+- request:
+    body: "{\n  \"protected\": \"eyJhbGciOiAiRVMyNTYiLCAia2lkIjogImh0dHBzOi8vYW5jaG9yLmRldi9hdXRvY2VydC1jYWIzYmMvZGV2ZWxvcG1lbnQveDUwOS9jYS9hY21lL2FjY3QvOTZFNjpBMkMyOjgzQzQiLCAibm9uY2UiOiAiVmxXalVwVWotSFdLWHpoc19FcWV4N25MODdPYVNRYzciLCAidXJsIjogImh0dHBzOi8vYW5jaG9yLmRldi9hdXRvY2VydC1jYWIzYmMvZGV2ZWxvcG1lbnQveDUwOS9jYS9hY21lL29yZGVyL0QyMEM6MjI0NDozRjQ1L2ZpbmFsaXplIn0\",\n
+      \ \"signature\": \"f7-baa_seVCcBCp734UpPQ-0z10tgN2ya3GSZE4ciaSHyJdVK-GohR9c0Ay04vNpkyGAn7GZNDS1lvDVUT_Yqw\",\n
+      \ \"payload\": \"ewogICJjc3IiOiAiTUlJQ2dUQ0NBV2tDQVFBd0FEQ0NBU0l3RFFZSktvWklodmNOQVFFQkJRQURnZ0VQQURDQ0FRb0NnZ0VCQUxLMTIxdVloM2tleHNJRlVnU2pfdTdjVkZwVlN4MzJoUkExSUIyUVdhNllERy1jWDB4bUtCdU8yQnBMMG1FLTl6RE1md0VCa0Z0UmRhbDMwQXFnTVl3aHVrWjNYVTU1MFMyZzRKRzF1eGJaSjYtRG5RZmp3d0dacEVRZnVndWJfVjlIQU5sOWd6a3hyMUczWUNrVXV6Z0Z4VkR3SzVRd3IwSE02NW05QzZCZkZHcFFkZGFqZmVZM2VNbGpuNjBza1BoM0FrN3hYZDdkc3k2U01XNk9hb0FnQWptWFZIRVNPazFod0xuNElJOHNYVTByMjVWcHh2aDBleUFHWUxrWUY1NTBFY2x1LW15ZHplQ0tleG44RTVMM2IwaF84dDNXQ0NuWm9QN2k1bzFZZlpJWW1nZ1QxVWR5dDRtRUZpVHpPbmlIcDE4bkhwOWJKU2RFNmk3UkltY0NBd0VBQWFBOE1Eb0dDU3FHU0liM0RRRUpEakV0TUNzd0tRWURWUjBSQkNJd0lJSWVZVzVqYUc5eUxYQnJhUzF3ZVMxMFpYTjBhVzVuTG14amJDNW9iM04wTUEwR0NTcUdTSWIzRFFFQkN3VUFBNElCQVFCRVRwOExrdWJYVkppMTBiN3pDM0RzU2laMm5iSWFFa0NVUktnSkpNMnR3cUxTYUVFYkdkYkdwY0JLRU1jNkVQSXdwOW9fSnlBdzdxOFpjX2dscEJ6VTlzSWwtQ3Z5a0dIMi1HcnJGZDY5TFdUV1NTR1k4TFFHaDBIOWFWbDc2eTZqNzNhN2ZEOFR0TzNvNDhqZWZGdG1tOE5oVTdncVZ1MnlvOHo4el96SWVoS1h0cG9SWDRmNFBFQ09wOU91X2lkQ3JxUmRhQ2tLZlNNOXUxQTdzM3FDSWNjQ244dzNvNnhCbmt5ZnVTclRIdTRrVHdoVksxWXlYUVg0WDJmUzNBNlFkTFQ1S3NvRXpEa1dpRkNBZmVyWHNhRnhpZmlURGVLX2hqdTczZmVFZktMUE9pbVdTTUd4X3psdzN2a3huRVh1WWtTRWIwMWlQdVE2SmlHVDQxbTQiCn0\"\n}"
+    headers:
+      Accept:
+      - '*/*'
+      Accept-Encoding:
+      - gzip, deflate
+      Connection:
+      - keep-alive
+      Content-Length:
+      - '1645'
+      Content-Type:
+      - application/jose+json
+      User-Agent:
+      - anchor-pki autocert python client v0.1.0
+    method: POST
+    uri: https://anchor.dev/autocert-cab3bc/development/x509/ca/acme/order/D20C:2244:3F45/finalize
+  response:
+    body:
+      string: '{"status":"valid","expires":"2023-10-12T17:14:00.835Z","identifiers":[{"type":"dns","value":"anchor-pki-py-testing.lcl.host"}],"notBefore":null,"notAfter":null,"authorizations":["https://anchor.dev/autocert-cab3bc/development/x509/ca/acme/authz/2476:75DA:EA80"],"finalize":"https://anchor.dev/autocert-cab3bc/development/x509/ca/acme/order/D20C:2244:3F45/finalize","certificate":"https://anchor.dev/autocert-cab3bc/development/x509/ca/acme/cert/D20C:2244:3F45"}'
+    headers:
+      Connection:
+      - keep-alive
+      cache-control:
+      - max-age=0, private, must-revalidate
+      content-length:
+      - '461'
+      content-security-policy:
+      - 'default-src ''self'' https:; font-src ''self'' https: data:; img-src ''self''
+        https: data:; object-src ''none''; script-src ''self'' bam.nr-data.net js-agent.newrelic.com;
+        style-src ''self'' ''unsafe-inline'' bam.nr-data.net; connect-src ''self'';
+        base-uri ''self'''
+      content-type:
+      - application/json; charset=utf-8
+      date:
+      - Thu, 12 Oct 2023 16:14:02 GMT
+      etag:
+      - W/"ae98bcc746fd4c49ab81d12da4e0b463"
+      fly-request-id:
+      - 01HCJAN5KH7XAGKQQFJFFN16C6-sjc
+      location:
+      - https://anchor.dev/autocert-cab3bc/development/x509/ca/acme/order/D20C:2244:3F45
+      referrer-policy:
+      - strict-origin-when-cross-origin
+      replay-nonce:
+      - K582uhIA8XPHfYLHFqEd6xVn3fjHSJaI
+      server:
+      - Fly/55f8eaa0 (2023-10-09)
+      strict-transport-security:
+      - max-age=63072000; includeSubDomains
+      transfer-encoding:
+      - chunked
+      vary:
+      - Accept
+      via:
+      - 1.1 fly.io
+      x-cache:
+      - MISS
+      x-cache-hits:
+      - '0'
+      x-content-type-options:
+      - nosniff
+      x-download-options:
+      - noopen
+      x-frame-options:
+      - SAMEORIGIN
+      x-permitted-cross-domain-policies:
+      - none
+      x-request-id:
+      - a6515425-d445-4d5b-9805-8c350693a162
+      x-runtime:
+      - '0.979209'
+      x-served-by:
+      - cache-pao-kpao1770037-PAO
+      x-xss-protection:
+      - '0'
+    status:
+      code: 200
+      message: OK
+- request:
+    body: "{\n  \"protected\": \"eyJhbGciOiAiRVMyNTYiLCAia2lkIjogImh0dHBzOi8vYW5jaG9yLmRldi9hdXRvY2VydC1jYWIzYmMvZGV2ZWxvcG1lbnQveDUwOS9jYS9hY21lL2FjY3QvOTZFNjpBMkMyOjgzQzQiLCAibm9uY2UiOiAiSzU4MnVoSUE4WFBIZllMSEZxRWQ2eFZuM2ZqSFNKYUkiLCAidXJsIjogImh0dHBzOi8vYW5jaG9yLmRldi9hdXRvY2VydC1jYWIzYmMvZGV2ZWxvcG1lbnQveDUwOS9jYS9hY21lL29yZGVyL0QyMEM6MjI0NDozRjQ1In0\",\n
+      \ \"signature\": \"s9yOfho8TwnT8rFfdKGtqcEW6zMgAUc75A1KYduxPq6FULped_kZCc3UDWb_PLTv_-Sc3n1Wy8A5ciMD8iZCLA\",\n
+      \ \"payload\": \"\"\n}"
+    headers:
+      Accept:
+      - '*/*'
+      Accept-Encoding:
+      - gzip, deflate
+      Connection:
+      - keep-alive
+      Content-Length:
+      - '466'
+      Content-Type:
+      - application/jose+json
+      User-Agent:
+      - anchor-pki autocert python client v0.1.0
+    method: POST
+    uri: https://anchor.dev/autocert-cab3bc/development/x509/ca/acme/order/D20C:2244:3F45
+  response:
+    body:
+      string: '{"status":"valid","expires":"2023-10-12T17:14:00.835Z","identifiers":[{"type":"dns","value":"anchor-pki-py-testing.lcl.host"}],"notBefore":null,"notAfter":null,"authorizations":["https://anchor.dev/autocert-cab3bc/development/x509/ca/acme/authz/2476:75DA:EA80"],"finalize":"https://anchor.dev/autocert-cab3bc/development/x509/ca/acme/order/D20C:2244:3F45/finalize","certificate":"https://anchor.dev/autocert-cab3bc/development/x509/ca/acme/cert/D20C:2244:3F45"}'
+    headers:
+      Connection:
+      - keep-alive
+      cache-control:
+      - max-age=0, private, must-revalidate
+      content-length:
+      - '461'
+      content-security-policy:
+      - 'default-src ''self'' https:; font-src ''self'' https: data:; img-src ''self''
+        https: data:; object-src ''none''; script-src ''self'' bam.nr-data.net js-agent.newrelic.com;
+        style-src ''self'' ''unsafe-inline'' bam.nr-data.net; connect-src ''self'';
+        base-uri ''self'''
+      content-type:
+      - application/json; charset=utf-8
+      date:
+      - Thu, 12 Oct 2023 16:14:03 GMT
+      etag:
+      - W/"ae98bcc746fd4c49ab81d12da4e0b463"
+      fly-request-id:
+      - 01HCJAN7N3FGAZSG5X7FE40Z9N-sjc
+      location:
+      - https://anchor.dev/autocert-cab3bc/development/x509/ca/acme/order/D20C:2244:3F45
+      referrer-policy:
+      - strict-origin-when-cross-origin
+      replay-nonce:
+      - qq3b7_wcdgnUJEeoPnyP4r0rwDdwztoK
+      server:
+      - Fly/55f8eaa0 (2023-10-09)
+      strict-transport-security:
+      - max-age=63072000; includeSubDomains
+      transfer-encoding:
+      - chunked
+      vary:
+      - Accept
+      via:
+      - 1.1 fly.io
+      x-cache:
+      - MISS
+      x-cache-hits:
+      - '0'
+      x-content-type-options:
+      - nosniff
+      x-download-options:
+      - noopen
+      x-frame-options:
+      - SAMEORIGIN
+      x-permitted-cross-domain-policies:
+      - none
+      x-request-id:
+      - b465d26c-6052-4158-8cdd-32f5466d6f20
+      x-runtime:
+      - '0.052535'
+      x-served-by:
+      - cache-pao-kpao1770037-PAO
+      x-xss-protection:
+      - '0'
+    status:
+      code: 200
+      message: OK
+- request:
+    body: "{\n  \"protected\": \"eyJhbGciOiAiRVMyNTYiLCAia2lkIjogImh0dHBzOi8vYW5jaG9yLmRldi9hdXRvY2VydC1jYWIzYmMvZGV2ZWxvcG1lbnQveDUwOS9jYS9hY21lL2FjY3QvOTZFNjpBMkMyOjgzQzQiLCAibm9uY2UiOiAicXEzYjdfd2NkZ25VSkVlb1BueVA0cjByd0Rkd3p0b0siLCAidXJsIjogImh0dHBzOi8vYW5jaG9yLmRldi9hdXRvY2VydC1jYWIzYmMvZGV2ZWxvcG1lbnQveDUwOS9jYS9hY21lL2NlcnQvRDIwQzoyMjQ0OjNGNDUifQ\",\n
+      \ \"signature\": \"04dqIh-Zi3lWZjFp9EILUJcKLo1xlWtELZ_JPaa5I66QsusOW1E7UX-LUvdl9HZyqoM6J7jHmDUqN0kN_BBNSA\",\n
+      \ \"payload\": \"\"\n}"
+    headers:
+      Accept:
+      - '*/*'
+      Accept-Encoding:
+      - gzip, deflate
+      Connection:
+      - keep-alive
+      Content-Length:
+      - '465'
+      Content-Type:
+      - application/jose+json
+      User-Agent:
+      - anchor-pki autocert python client v0.1.0
+    method: POST
+    uri: https://anchor.dev/autocert-cab3bc/development/x509/ca/acme/cert/D20C:2244:3F45
+  response:
+    body:
+      string: '-----BEGIN CERTIFICATE-----
+
+        MIIEqjCCA5KgAwIBAgIMYFoWyddvZAp9sAisMA0GCSqGSIb3DQEBCwUAMDsxETAP
+
+        BgNVBAoTCGF1dG9jZXJ0MSYwJAYDVQQDEx1hbmNob3ItcGtpLXB5LXRlc3Rpbmcg
+
+        LSBTdWJDQTAeFw0yMzEwMTIxNjE0MDFaFw0yMzExMDkxNjE0MDBaMDwxETAPBgNV
+
+        BAoTCGF1dG9jZXJ0MScwJQYDVQQDEx5hbmNob3ItcGtpLXB5LXRlc3RpbmcubGNs
+
+        Lmhvc3QwggEiMA0GCSqGSIb3DQEBAQUAA4IBDwAwggEKAoIBAQCytdtbmId5HsbC
+
+        BVIEo/7u3FRaVUsd9oUQNSAdkFmumAxvnF9MZigbjtgaS9JhPvcwzH8BAZBbUXWp
+
+        d9AKoDGMIbpGd11OedEtoOCRtbsW2Sevg50H48MBmaREH7oLm/1fRwDZfYM5Ma9R
+
+        t2ApFLs4BcVQ8CuUMK9BzOuZvQugXxRqUHXWo33mN3jJY5+tLJD4dwJO8V3e3bMu
+
+        kjFujmqAIAI5l1RxEjpNYcC5+CCPLF1NK9uVacb4dHsgBmC5GBeedBHJbvpsnc3g
+
+        insZ/BOS929If/Ld1ggp2aD+4uaNWH2SGJoIE9VHcreJhBYk8zp4h6dfJx6fWyUn
+
+        ROou0SJnAgMBAAGjggGrMIIBpzAOBgNVHQ8BAf8EBAMCB4AwDAYDVR0TAQH/BAIw
+
+        ADApBgNVHQ4EIgQgGty4xHyU2Sr4yNTWlur67M1f8s4glVz9Q+drRr/zOKswKwYD
+
+        VR0jBCQwIoAgLyTG5Rkkn06YndhANKe4POO4kzFgsOzgTRFsH7y3eL0wKQYDVR0R
+
+        BCIwIIIeYW5jaG9yLXBraS1weS10ZXN0aW5nLmxjbC5ob3N0MHYGCCsGAQUFBwEB
+
+        BGowaDBmBggrBgEFBQcwAoZaaHR0cDovL2FuY2hvci5kZXYvYXV0b2NlcnQtY2Fi
+
+        M2JjL2RldmVsb3BtZW50L3g1MDkvY2Evc3ViLWNhLTFmNGY0YWVkNDkxZl81Zjgw
+
+        NmYzNTM2ZGUuZGVyMGgGA1UdHwRhMF8wXaBboFmGV2h0dHA6Ly9hbmNob3IuZGV2
+
+        L2F1dG9jZXJ0LWNhYjNiYy9kZXZlbG9wbWVudC94NTA5L2NhL2NybC0xZjRmNGFl
+
+        ZDQ5MWZfNWY4MDZmMzUzNmRlLmRlcjAiBgkrBgEEAYPbZAEEFTATohEYDzIwMjMx
+
+        MDI2MTYxNDAxWjANBgkqhkiG9w0BAQsFAAOCAQEAc9FXZIrAdECpf5nOChC/dHcb
+
+        X9q9wzVIiY5Bs4gtn4+mYjGVWJAh2XK1X7linMtkeAmYJPsdY5R0e9rJ+KG++U3I
+
+        ZdlPyY4oYza048Ze+hWuov/v+Yg0OCTwmYHaNFvQEidk/QQCULyUDJTLpTPG+3CI
+
+        4bt5q+9DaW9Tuj6Nsmg3Y7ZwVWDiQdpq/W2YEvJBDk+XrcU5ZWnosR7IPmoGNC4m
+
+        P6YE4hLPsKCFEM2axRQg7Ztzzj8qlUJnYEeM50iabUKtbrpFciO/ipvY6nVDjMyw
+
+        zUQpyPizZGKbSIoRjqq67BsNEnrKiHBEHx5b4Dtb1rgCU31p1LODK7nYGapKhQ==
+
+        -----END CERTIFICATE-----
+
+        -----BEGIN CERTIFICATE-----
+
+        MIIEnjCCA4agAwIBAgIMH09K7UkfX4BvNTbeMA0GCSqGSIb3DQEBCwUAMEQxETAP
+
+        BgNVBAoTCGF1dG9jZXJ0MS8wLQYDVQQDEyZhdXRvY2VydC1jYWIzYmMvZGV2ZWxv
+
+        cG1lbnQgLSBBbmNob3JDQTAeFw0yMzA4MjEwMDAwMDBaFw0yNDA4MjAyMzU5NTla
+
+        MDsxETAPBgNVBAoTCGF1dG9jZXJ0MSYwJAYDVQQDEx1hbmNob3ItcGtpLXB5LXRl
+
+        c3RpbmcgLSBTdWJDQTCCASIwDQYJKoZIhvcNAQEBBQADggEPADCCAQoCggEBAKSP
+
+        3HuIlPNh7eeLur3r7jaUIBO+KbJ9NtKPVbvptUuJqKrExzOkwZQi981lxTmOIL5I
+
+        GSWTdrC8tkCo8At5+u3EBr4ayIOBOiQJKiK2onFPCL+Zr+O9nWqwauel54DZKmcF
+
+        DE0sQnRg7K4KZPqZhuCCqHsLGwdRe+L4COzJVScewDOj52RZvJTfQr7gyAN5RtaD
+
+        hcgWv4/xSjO3abecz4a0yEuNKF6EhbpWkRkHbu2t0Hp7gBLOxnMqMdlB7nhhenlh
+
+        mTLk84vQHvoDiFP+8bOLCHZY5TLaJXVJHfwICo0dVhIQuDuBVSRaUHW5BKguuC9F
+
+        CBRYIz3onuPX2N1ZJV8CAwEAAaOCAZcwggGTMA4GA1UdDwEB/wQEAwIBBjASBgNV
+
+        HRMBAf8ECDAGAQH/AgEAMCkGA1UdDgQiBCAvJMblGSSfTpid2EA0p7g847iTMWCw
+
+        7OBNEWwfvLd4vTArBgNVHSMEJDAigCDj+9A1NiGUsxDgx0vQ/zOyggdnRzJr9ufA
+
+        qJMwkb8XsjAwBgNVHR4BAf8EJjAkoCIwIIIeYW5jaG9yLXBraS1weS10ZXN0aW5n
+
+        LmxjbC5ob3N0MHkGCCsGAQUFBwEBBG0wazBpBggrBgEFBQcwAoZdaHR0cDovL2Fu
+
+        Y2hvci5kZXYvYXV0b2NlcnQtY2FiM2JjL2RldmVsb3BtZW50L3g1MDkvY2EvYW5j
+
+        aG9yLWNhLTVlYWRmOWUxMWE0ZF81ODg4YzNmZjQxOGQuZGVyMGgGA1UdHwRhMF8w
+
+        XaBboFmGV2h0dHA6Ly9hbmNob3IuZGV2L2F1dG9jZXJ0LWNhYjNiYy9kZXZlbG9w
+
+        bWVudC94NTA5L2NhL2NybC01ZWFkZjllMTFhNGRfNTg4OGMzZmY0MThkLmRlcjAN
+
+        BgkqhkiG9w0BAQsFAAOCAQEAGvpqHcl1aExbWFVLcj6+fPDFMMubL+OPrwNmRBl4
+
+        QwCFiq1Y8IOoufepciY8ZHktRAillk2eS3NZw5vh3ULamujtLp7kyywTEhQRMt6i
+
+        /NTJBMKzq95Q7vgQ6szgzBwHzFpB3N763VmY4vioBZEJDCnEs+lzgmTAmtMHe5tn
+
+        pssLFuxPrhfAq/eDLzPW7MLAq6CCBtatUWy2y1lOkUKVBgZi4o+EEcTPZwNIFpT7
+
+        jsmZK/yIkUSTtTyGP9Oq5+FupmA9aAEE9trptMsdRcPsC+DtVPsDQdLLDb2P+HhV
+
+        u7X7h1QeWM5GnjzUxb7TU1GCm+EErTxgXnhbFW+rvsWj7Q==
+
+        -----END CERTIFICATE-----
+
+        -----BEGIN CERTIFICATE-----
+
+        MIID0zCCArugAwIBAgIMXq354RpNWIjD/0GNMA0GCSqGSIb3DQEBCwUAMEQxETAP
+
+        BgNVBAoTCGF1dG9jZXJ0MS8wLQYDVQQDEyZhdXRvY2VydC1jYWIzYmMvZGV2ZWxv
+
+        cG1lbnQgLSBBbmNob3JDQTAeFw0yMzA4MjEwMDAwMDBaFw0yNTA4MjAyMzU5NTla
+
+        MEQxETAPBgNVBAoTCGF1dG9jZXJ0MS8wLQYDVQQDEyZhdXRvY2VydC1jYWIzYmMv
+
+        ZGV2ZWxvcG1lbnQgLSBBbmNob3JDQTCCASIwDQYJKoZIhvcNAQEBBQADggEPADCC
+
+        AQoCggEBAKySq9v3A63wPl7/iA2b1mqX8Ag/l9FRP/2kfzAWFQmj97FkvEruSbxh
+
+        rijG8RbtBYj1892OanAqxlULKJsCjgoMD3/b1Wcscfeodp4jfpduy3Bg4yKVdMl4
+
+        ItYPhHgApVyeenmX432XEl8BrxxNTZs941gSeIj1VUtYLS1PS76yR4SBj3H3Q6oC
+
+        AVhDY4y2Wg0cC9y9hMxBw9xJx9sm5c1i92zfOknFcZEyvD3M8Hry65iOAoQ1nyR+
+
+        QrrBRQYLn126xcwucjdx6Zm1VN9Pl9+ZLxeNjtHUhGDcUAnVjeh5i3kx0d7IdvGR
+
+        SS33DmavutSR+WoxPKCvuq5d7BT3gb0CAwEAAaOBxDCBwTAOBgNVHQ8BAf8EBAMC
+
+        AQYwEgYDVR0TAQH/BAgwBgEB/wIBATApBgNVHQ4EIgQg4/vQNTYhlLMQ4MdL0P8z
+
+        soIHZ0cya/bnwKiTMJG/F7IwKwYDVR0jBCQwIoAg4/vQNTYhlLMQ4MdL0P8zsoIH
+
+        Z0cya/bnwKiTMJG/F7IwQwYDVR0eAQH/BDkwN6A1MAuCCS5sY2wuaG9zdDALggku
+
+        aW50ZXJuYWwwBoIELmxhbjAIggYubG9jYWwwB4IFLnRlc3QwDQYJKoZIhvcNAQEL
+
+        BQADggEBAA4UFV6a9bQWJ/erKiQGbuGLtqHWGC1YmkGFXRvcMzuB2fJhrfJWvsps
+
+        VnSxzBYMxNmymP+xHYvqWAh9zmFHSSIG+0MISWjxCQh4LpC7EfZv/SAW2hP6/hzG
+
+        G1V75Qhta8jxUqfWx7EiFt49HJ2tUJQgrhYT13rG9yl5TcCRXmZIUd3MLqQ0rBTj
+
+        GQJery1GlptvfhAhSNwfBe5jDiMf6qHpaw+CFHTnaoSXfNj9o6XE0KUEods0pvsN
+
+        XsmSfeCtBUPYLBkcVWdhhtTmkF7+KbzPHNCcGY378mEQns0k2UYDJOf/bx+Slrav
+
+        VORstP3o3jaHSfJ5jZ5PAmzKUlM1Vv0=
+
+        -----END CERTIFICATE-----
+
+        '
+    headers:
+      Connection:
+      - keep-alive
+      cache-control:
+      - max-age=0, private, must-revalidate
+      content-disposition:
+      - attachment
+      content-security-policy:
+      - 'default-src ''self'' https:; font-src ''self'' https: data:; img-src ''self''
+        https: data:; object-src ''none''; script-src ''self'' bam.nr-data.net js-agent.newrelic.com;
+        style-src ''self'' ''unsafe-inline'' bam.nr-data.net; connect-src ''self'';
+        base-uri ''self'''
+      content-transfer-encoding:
+      - binary
+      content-type:
+      - application/pem-certificate-chain
+      date:
+      - Thu, 12 Oct 2023 16:14:03 GMT
+      etag:
+      - W/"3ad1b6a411b4c11fc0237e1b97519bdb"
+      fly-request-id:
+      - 01HCJAN7TNAWCFAEV2WHYF3T3G-sjc
+      location:
+      - <https://anchor.dev/autocert-cab3bc/development/x509/ca/acme>;rel="index"
+      referrer-policy:
+      - strict-origin-when-cross-origin
+      replay-nonce:
+      - BR2CaoGviAv6l-Whc8W121slvRdxgoz7
+      server:
+      - Fly/55f8eaa0 (2023-10-09)
+      strict-transport-security:
+      - max-age=63072000; includeSubDomains
+      transfer-encoding:
+      - chunked
+      vary:
+      - Accept
+      via:
+      - 1.1 fly.io
+      x-cache:
+      - MISS
+      x-cache-hits:
+      - '0'
+      x-content-type-options:
+      - nosniff
+      x-download-options:
+      - noopen
+      x-frame-options:
+      - SAMEORIGIN
+      x-permitted-cross-domain-policies:
+      - none
+      x-request-id:
+      - f782653d-8435-4725-b91c-977b8c19cd9d
+      x-runtime:
+      - '0.497802'
+      x-served-by:
+      - cache-pao-kpao1770037-PAO
+      x-xss-protection:
+      - '0'
+    status:
+      code: 200
+      message: OK
+version: 1

@@ -1,0 +1,299 @@
+interactions:
+- request:
+    body: null
+    headers:
+      Accept:
+      - '*/*'
+      Accept-Encoding:
+      - gzip, deflate
+      Connection:
+      - keep-alive
+      User-Agent:
+      - anchor-pki autocert python client v0.1.0
+    method: GET
+    uri: https://anchor.dev/autocert-cab3bc/development/x509/ca/acme
+  response:
+    body:
+      string: '{"newNonce":"https://anchor.dev/autocert-cab3bc/development/x509/ca/acme/new-nonce","newAccount":"https://anchor.dev/autocert-cab3bc/development/x509/ca/acme/new-account","newOrder":"https://anchor.dev/autocert-cab3bc/development/x509/ca/acme/new-order","revokeCert":"https://anchor.dev/autocert-cab3bc/development/x509/ca/acme/revoke-cert","meta":{"website":"https://anchor.dev","externalAccountRequired":true}}'
+    headers:
+      Connection:
+      - keep-alive
+      cache-control:
+      - max-age=0, private, must-revalidate
+      content-length:
+      - '412'
+      content-security-policy:
+      - 'default-src ''self'' https:; font-src ''self'' https: data:; img-src ''self''
+        https: data:; object-src ''none''; script-src ''self'' bam.nr-data.net js-agent.newrelic.com;
+        style-src ''self'' ''unsafe-inline'' bam.nr-data.net; connect-src ''self'';
+        base-uri ''self'''
+      content-type:
+      - application/json; charset=utf-8
+      date:
+      - Thu, 12 Oct 2023 16:14:04 GMT
+      etag:
+      - W/"22f24c4757511b8a5c30da37aa7f09ba"
+      fly-request-id:
+      - 01HCJAN91JZF3XVSP62M6N0G8R-sjc
+      referrer-policy:
+      - strict-origin-when-cross-origin
+      server:
+      - Fly/55f8eaa0 (2023-10-09)
+      strict-transport-security:
+      - max-age=63072000; includeSubDomains
+      transfer-encoding:
+      - chunked
+      vary:
+      - Accept
+      via:
+      - 1.1 fly.io
+      x-cache:
+      - MISS
+      x-cache-hits:
+      - '0'
+      x-content-type-options:
+      - nosniff
+      x-download-options:
+      - noopen
+      x-frame-options:
+      - SAMEORIGIN
+      x-permitted-cross-domain-policies:
+      - none
+      x-request-id:
+      - 9a620004-028c-43fa-8487-e71ee739079d
+      x-runtime:
+      - '0.004495'
+      x-served-by:
+      - cache-pao-kpao1770035-PAO
+      x-xss-protection:
+      - '0'
+    status:
+      code: 200
+      message: OK
+- request:
+    body: null
+    headers:
+      Accept:
+      - '*/*'
+      Accept-Encoding:
+      - gzip, deflate
+      Connection:
+      - keep-alive
+      User-Agent:
+      - anchor-pki autocert python client v0.1.0
+    method: HEAD
+    uri: https://anchor.dev/autocert-cab3bc/development/x509/ca/acme/new-nonce
+  response:
+    body:
+      string: ''
+    headers:
+      Connection:
+      - keep-alive
+      cache-control:
+      - no-cache
+      content-security-policy:
+      - 'default-src ''self'' https:; font-src ''self'' https: data:; img-src ''self''
+        https: data:; object-src ''none''; script-src ''self'' bam.nr-data.net js-agent.newrelic.com;
+        style-src ''self'' ''unsafe-inline'' bam.nr-data.net; connect-src ''self'';
+        base-uri ''self'''
+      content-type:
+      - text/html
+      date:
+      - Thu, 12 Oct 2023 16:14:04 GMT
+      fly-request-id:
+      - 01HCJAN97PAC82QYP732TT7H3N-sjc
+      location:
+      - <https://anchor.dev/autocert-cab3bc/development/x509/ca/acme>;rel="index"
+      referrer-policy:
+      - strict-origin-when-cross-origin
+      replay-nonce:
+      - lcDEolEFIzEPa03u2Shkqb5RMet6OOzD
+      server:
+      - Fly/55f8eaa0 (2023-10-09)
+      strict-transport-security:
+      - max-age=63072000; includeSubDomains
+      via:
+      - 1.1 fly.io
+      x-cache:
+      - MISS
+      x-cache-hits:
+      - '0'
+      x-content-type-options:
+      - nosniff
+      x-download-options:
+      - noopen
+      x-frame-options:
+      - SAMEORIGIN
+      x-permitted-cross-domain-policies:
+      - none
+      x-request-id:
+      - e8169815-173f-4f1f-8a90-899e98647069
+      x-runtime:
+      - '0.013787'
+      x-served-by:
+      - cache-pao-kpao1770035-PAO
+      x-xss-protection:
+      - '0'
+    status:
+      code: 200
+      message: OK
+- request:
+    body: "{\n  \"protected\": \"eyJhbGciOiAiRVMyNTYiLCAiandrIjogeyJ4IjogImEzdTljM1JKRmNKSU5mMWxiemNHTGtBOWszc0VOWTcwQWFqZFh3bDZzQWMiLCAieSI6ICI5UGktX0xiTl93SkVWNUlldkNLSlVmbkpfakpuNkhrMzJXWFpYdGxRSWhRIiwgImNydiI6ICJQLTI1NiIsICJrdHkiOiAiRUMifSwgIm5vbmNlIjogImxjREVvbEVGSXpFUGEwM3UyU2hrcWI1Uk1ldDZPT3pEIiwgInVybCI6ICJodHRwczovL2FuY2hvci5kZXYvYXV0b2NlcnQtY2FiM2JjL2RldmVsb3BtZW50L3g1MDkvY2EvYWNtZS9uZXctYWNjb3VudCJ9\",\n
+      \ \"signature\": \"Zv1twC1Cs1B5wUBrvVrDbSiuTrYvTktGAOiQOJjjvwlet1ezpzCJ-Sx-ocP6sQ9LQXTzNSDQNEY7RAhztj2CIg\",\n
+      \ \"payload\": \"ewogICJjb250YWN0IjogWwogICAgIm1haWx0bzpkZXZlbG9wZXJAYW5jaG9yLmRldiIKICBdLAogICJ0ZXJtc09mU2VydmljZUFncmVlZCI6IHRydWUsCiAgImV4dGVybmFsQWNjb3VudEJpbmRpbmciOiB7CiAgICAicHJvdGVjdGVkIjogImV5SmhiR2NpT2lBaVNGTXlOVFlpTENBaWEybGtJam9nSW1GaFpWOWFWemhEY2pSSGNqVkhNRXRRUTBRMmExQlROVVJXYzJSMFNrMVdkRFppZG5WaVUwdHVWMFF4WjNSM2NTSXNJQ0oxY213aU9pQWlhSFIwY0hNNkx5OWhibU5vYjNJdVpHVjJMMkYxZEc5alpYSjBMV05oWWpOaVl5OWtaWFpsYkc5d2JXVnVkQzk0TlRBNUwyTmhMMkZqYldVdmJtVjNMV0ZqWTI5MWJuUWlmUSIsCiAgICAic2lnbmF0dXJlIjogIm1td2V4bnBlekdfOE9fQzhTeHNicXMzV3U3ZHo0a3FDX1paYVlZalBwc1EiLAogICAgInBheWxvYWQiOiAiZXlKNElqb2dJbUV6ZFRsak0xSktSbU5LU1U1bU1XeGllbU5IVEd0Qk9Xc3pjMFZPV1Rjd1FXRnFaRmgzYkRaelFXTWlMQ0FpZVNJNklDSTVVR2t0WDB4aVRsOTNTa1ZXTlVsbGRrTkxTbFZtYmtwZmFrcHVOa2hyTXpKWFdGcFlkR3hSU1doUklpd2dJbU55ZGlJNklDSlFMVEkxTmlJc0lDSnJkSGtpT2lBaVJVTWlmUSIKICB9Cn0\"\n}"
+    headers:
+      Accept:
+      - '*/*'
+      Accept-Encoding:
+      - gzip, deflate
+      Connection:
+      - keep-alive
+      Content-Length:
+      - '1342'
+      Content-Type:
+      - application/jose+json
+      User-Agent:
+      - anchor-pki autocert python client v0.1.0
+    method: POST
+    uri: https://anchor.dev/autocert-cab3bc/development/x509/ca/acme/new-account
+  response:
+    body:
+      string: '{"status":"valid","contact":["mailto:developer@anchor.dev"],"orders":"https://anchor.dev/autocert-cab3bc/development/x509/ca/acme/acct/583B:83C3:CD7D/orders"}'
+    headers:
+      Connection:
+      - keep-alive
+      cache-control:
+      - max-age=0, private, must-revalidate
+      content-length:
+      - '158'
+      content-security-policy:
+      - 'default-src ''self'' https:; font-src ''self'' https: data:; img-src ''self''
+        https: data:; object-src ''none''; script-src ''self'' bam.nr-data.net js-agent.newrelic.com;
+        style-src ''self'' ''unsafe-inline'' bam.nr-data.net; connect-src ''self'';
+        base-uri ''self'''
+      content-type:
+      - application/json; charset=utf-8
+      date:
+      - Thu, 12 Oct 2023 16:14:04 GMT
+      etag:
+      - W/"3b9b690b1e940ec9e292407806f381d7"
+      fly-request-id:
+      - 01HCJAN9E4HKKVAF2JSG71SD3H-sjc
+      location:
+      - https://anchor.dev/autocert-cab3bc/development/x509/ca/acme/acct/583B:83C3:CD7D
+      referrer-policy:
+      - strict-origin-when-cross-origin
+      replay-nonce:
+      - 4N-Z1X8TznfMFzmcfkzH8SB-49nnzAeW
+      server:
+      - Fly/55f8eaa0 (2023-10-09)
+      strict-transport-security:
+      - max-age=63072000; includeSubDomains
+      transfer-encoding:
+      - chunked
+      vary:
+      - Accept
+      via:
+      - 1.1 fly.io
+      x-cache:
+      - MISS
+      x-cache-hits:
+      - '0'
+      x-content-type-options:
+      - nosniff
+      x-download-options:
+      - noopen
+      x-frame-options:
+      - SAMEORIGIN
+      x-permitted-cross-domain-policies:
+      - none
+      x-request-id:
+      - 3b9a9da7-9e0e-4eca-839c-8ef86c955444
+      x-runtime:
+      - '0.218924'
+      x-served-by:
+      - cache-pao-kpao1770035-PAO
+      x-xss-protection:
+      - '0'
+    status:
+      code: 201
+      message: Created
+- request:
+    body: "{\n  \"protected\": \"eyJhbGciOiAiRVMyNTYiLCAia2lkIjogImh0dHBzOi8vYW5jaG9yLmRldi9hdXRvY2VydC1jYWIzYmMvZGV2ZWxvcG1lbnQveDUwOS9jYS9hY21lL2FjY3QvNTgzQjo4M0MzOkNEN0QiLCAibm9uY2UiOiAiNE4tWjFYOFR6bmZNRnptY2Zrekg4U0ItNDlubnpBZVciLCAidXJsIjogImh0dHBzOi8vYW5jaG9yLmRldi9hdXRvY2VydC1jYWIzYmMvZGV2ZWxvcG1lbnQveDUwOS9jYS9hY21lL25ldy1vcmRlciJ9\",\n
+      \ \"signature\": \"Fjm40dYXN8sQ_50nyUqliZjS1DoRiOOisGB3W13CCp9bu5O_Rs4IiCZi3HcYPKq3IagJnWD8p0veQN4kGHV-Hw\",\n
+      \ \"payload\": \"ewogICJpZGVudGlmaWVycyI6IFsKICAgIHsKICAgICAgInR5cGUiOiAiZG5zIiwKICAgICAgInZhbHVlIjogImludmFsaWQuYmFkLmhvc3QiCiAgICB9CiAgXQp9\"\n}"
+    headers:
+      Accept:
+      - '*/*'
+      Accept-Encoding:
+      - gzip, deflate
+      Connection:
+      - keep-alive
+      Content-Length:
+      - '575'
+      Content-Type:
+      - application/jose+json
+      User-Agent:
+      - anchor-pki autocert python client v0.1.0
+    method: POST
+    uri: https://anchor.dev/autocert-cab3bc/development/x509/ca/acme/new-order
+  response:
+    body:
+      string: '{"type":"urn:ietf:params:acme:error:compound","detail":"Some of the
+        identifiers requested were rejected","subproblems":[{"type":"urn:ietf:params:acme:error:rejectedIdentifier","detail":"the
+        SubCA will not issue for \"invalid.bad.host\"","message":"the SubCA will not
+        issue for \"invalid.bad.host\"","identifier":{"type":"dns","value":"invalid.bad.host"}}]}'
+    headers:
+      Connection:
+      - keep-alive
+      cache-control:
+      - no-cache
+      content-length:
+      - '356'
+      content-security-policy:
+      - 'default-src ''self'' https:; font-src ''self'' https: data:; img-src ''self''
+        https: data:; object-src ''none''; script-src ''self'' bam.nr-data.net js-agent.newrelic.com;
+        style-src ''self'' ''unsafe-inline'' bam.nr-data.net; connect-src ''self'';
+        base-uri ''self'''
+      content-type:
+      - application/json; charset=utf-8
+      date:
+      - Thu, 12 Oct 2023 16:14:05 GMT
+      fly-request-id:
+      - 01HCJAN9TFARFFHF02BWFE12KJ-sjc
+      referrer-policy:
+      - strict-origin-when-cross-origin
+      server:
+      - Fly/55f8eaa0 (2023-10-09)
+      strict-transport-security:
+      - max-age=63072000; includeSubDomains
+      transfer-encoding:
+      - chunked
+      vary:
+      - Accept
+      via:
+      - 1.1 fly.io
+      x-cache:
+      - MISS
+      x-cache-hits:
+      - '0'
+      x-content-type-options:
+      - nosniff
+      x-download-options:
+      - noopen
+      x-frame-options:
+      - SAMEORIGIN
+      x-permitted-cross-domain-policies:
+      - none
+      x-request-id:
+      - 478c33ba-2d53-4c87-8761-b4f13318e538
+      x-runtime:
+      - '0.172292'
+      x-served-by:
+      - cache-pao-kpao1770035-PAO
+      x-xss-protection:
+      - '0'
+    status:
+      code: 400
+      message: Bad Request
+version: 1

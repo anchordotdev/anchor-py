@@ -1,0 +1,53 @@
+[tool.poetry]
+name = "anchor-pki"
+version = "0.3.0"
+description = "Client library for Anchor PKI. See https://anchor.dev/ for details'"
+authors = ["Anchor <support@anchor.dev>"]
+license = "MIT"
+readme = "README.md"
+packages = [{include = "anchor_pki", from = "src"}]
+homepage = "https://anchor.dev"
+keywords = ["anchor", "pki", "acme"]
+classifiers = [
+  "Development Status :: 4 - Beta",
+  "Intended Audience :: Developers",
+  "Topic :: System :: Networking",
+  "Topic :: Security"
+]
+
+[tool.poetry.dependencies]
+python = "^3.9"
+acme = "^2.6.0"
+diskcache = "^5.6.3"
+
+[tool.poetry.group.dev.dependencies]
+pytest = ">=7.4,<9.0"
+hypercorn = ">=0.14.4,<0.17.0"
+gunicorn = "^21.2.0"
+black = ">=23.7,<25.0"
+pylint = ">=2.17.5,<4.0.0"
+pytest-cov = "^4.1.0"
+pytest-dotenv = "^0.5.2"
+pytest-recording = "^0.13.0"
+vcrpy = ">=5.1,<7.0"
+freezegun = "^1.3.1"
+
+[tool.pytest.ini_options]
+addopts = [
+    "--import-mode=importlib",
+    "--strict-markers",
+]
+markers = [
+  "only: only run this test",
+]
+env_files = [
+    ".env"
+]
+
+
+[tool.pylint]
+output-format = "colorized"
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
